@@ -11,7 +11,11 @@ public:
         }
         sell = max(sell, prices[i]-buy);
        }
-    
+    //    for(int i=idx; i<prices.size();i++){
+    //     sell = max(sell, prices[i]);
+    //    }
+    //    int res= sell - buy;
+       
        return sell;// - buy;
     }
 };
