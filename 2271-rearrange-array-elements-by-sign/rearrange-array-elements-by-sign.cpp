@@ -7,7 +7,7 @@ public:
         for(int i=0;i<nums.size();i++){
             if(nums[i]>0){
                 pos.push_back(nums[i]);
-            }if(nums[i]<0){
+            }else{
                 neg.push_back(nums[i]);
             }
         }
